@@ -1,12 +1,12 @@
 const express = require("express");
 
+const error = require("./error");
+
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("ali");
-});
+// write your code
 
-router.use((req, res) => {
-  res.status(404).send("404!");
-});
+
+router.use(error.client );
+
 module.exports = router;
