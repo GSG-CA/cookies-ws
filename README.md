@@ -64,7 +64,7 @@ Flag | Description
 ---|---
 `HttpOnly` | This stops your cookie being accessed by the browser's Javascript (**including your own front-end code**). Without this flag, an attacker could intercept the user's cookies in a process known as Cross-Site Scripting (XSS). With the cookies of the legitimate user at hand, the attacker is able to act as the user in his/her interaction with a website - effectively identity theft.
 `Secure` | This means the cookie will only be set over a HTTPS connection. This prevents a man-in-the-middle attack.
-`Max-Age` | This sets the cookie lifetime in seconds.
+`Max-Age` | This sets the cookie lifetime in seconds in node and milliseconds in express.
 
 More flags can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie).
 
