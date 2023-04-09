@@ -34,6 +34,18 @@ A [cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) is a **pie
 
 Cookies are useful as they allow us to store information about a client. As the client keeps hold of the cookie the server can simply check the cookies has the correct information. You **send** cookies to the frontend via the response object and **read** a clients cookie on server via the request object.
 
+Cookies are used for a variety of reasons, including:
+
+1. Session management: Cookies can be used to manage user sessions on a website.
+
+2. Personalization: Cookies can be used to personalize a user's experience on a website. For example, a website can use cookies to remember a user's preferences, such as their language preference or their favorite products.
+
+3. Tracking: Cookies can be used to track user behavior on a website. This information can be used to improve the website's performance, such as identifying which pages are most popular or which features are used the most.
+
+4. Advertising: Cookies can be used for targeted advertising. Advertisers can use cookies to track a user's browsing history and serve them ads based on their interests.
+
+Overall, cookies help to improve the user experience on websites by providing personalized content and making it easier for users to navigate and interact with websites. However, there are also privacy concerns associated with cookies, which is why many websites now provide options for users to manage their cookie preferences.
+
 <br><br>
 
 :boom: WARNING :boom:
